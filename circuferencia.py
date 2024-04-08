@@ -1,9 +1,13 @@
+import math
+
+# Ler um valor para o raio
+raio = float(input("Digite o valor do raio da circunferência: "))
+
+# Estabelecer o valor de pi
 pi = 3.14159265
 
-def calcular_area(raio):
-    area = pi * (raio ** 2)
-    return area
+# Efetuar o cálculo da área
+area = pi * (raio ** 2)
 
-raio = float(input('digite o raio da circunferencia: '))
-
-area_
+# Imprimir o valor da área calculada
+print("A área da circunferência é:", area)
